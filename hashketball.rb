@@ -1,5 +1,13 @@
 # Write your code here!
 game_hash = {
-  :home = {},
-  :away = {},
+  :home = {
+    :team_name = "",
+    :colors = [],
+    :players = [{}]
+  },
+  :away = {
+    :team_name = "",
+    :colors = [],
+    :players = [{}]
+  },
 }
